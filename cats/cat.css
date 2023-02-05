@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #3030e9a6, #985dd0ab);
+  background-attachment: fixed;
+}
+
+.button {
+  width: 200px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #f1f3f5;
+  background-color: #364fc7;
+  border-radius: 10px;
+  border: 1px solid #364fc7;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+img {
+  display: inline-block;
+  height: 400px;
+  margin-right: 10px;
+  border: 3px solid #000;
+  margin: 20px auto;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  max-width: 1800px;
+}
